@@ -1,0 +1,28 @@
+{
+  "batch_size": 20000,
+  "pe_types": {
+    "mix": [
+      "degree",
+      "embed"
+    ]
+  },
+  "learning_rate": 0.001,
+  "num_epochs": 400,
+  "weight_decay": 5e-4,
+  "dropout": 0.1,
+  "hops": 1,
+  "init": 50,
+  "torr": 45,
+  "scheduler": 0.993,
+  "root": "./dataset/nba_sub",
+  "in_channels": {
+    "mix_in": 2
+  },
+  "hidden_channels": {
+    "gnn_hidden": 16,
+    "mix_hidden": 16
+  },
+  "sens_attr": "country",
+  "upd_gap": 10,
+  "seed": 3000
+}

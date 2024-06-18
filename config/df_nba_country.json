@@ -1,0 +1,14 @@
+{
+  "num_epochs": 100,
+  "batch_size": 10000,
+  "learning_rate_df": 0.002,
+  "learning_rate_adv":  0.001,
+  "dropout": 0.7,
+  "hops": 1,
+  "root": "./dataset/nba_sub",
+  "in_channels": {},
+  "hidden_channels": {"gnn_hidden": 16},
+  "interval": 1,
+  "warmup": 0,
+  "adv_train": 1
+}
