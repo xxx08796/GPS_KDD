@@ -1,15 +1,12 @@
-# <center> Unveiling Privacy Vulnerabilities: Investigating the Role of Structure in Graph Data (KDD'24) </center>
-
-<div align='center'>
+# Unveiling Privacy Vulnerabilities: Investigating the Role of Structure in Graph Data (KDD'24)
 
 Hanyuan Yuan, <a href='https://galina0217.github.io/'>Jiarong Xu*</a>, <a href='https://en.gsm.pku.edu.cn/faculty/wangcong/'>Cong Wang</a>, <a href='https://yziqi.github.io/'>Ziqi Yang</a>, Chunping Wang, Keting Yin and <a href='http://yangy.org/'>Yang Yang</a>. (*Corresponding author)
-
 
  <a href='https://kdd2024.kdd.org/'><img src='https://img.shields.io/badge/Conference-KDD-magenta'></a> 
  <a href='https://github.com/horrible-dong/DNRT/blob/main/LICENSE'><img src='https://img.shields.io/badge/License-Apache--2.0-blue'></a> 
 
+<div align='center'>
 <img src='pic/gps.png' style='width: 50%;' />
-
 </div>
 
 ## Brief Introduction
@@ -48,6 +45,11 @@ For more details, please refer to the paper.
 Please first clone the repo and install the required environment, which can be done by running the following commands:
 
 ```shell
+# Clone our repo
+git clone https://github.com/xxx08796/GPS_KDD.git
+cd GPS_KDD
+mkdir dataset
+# Create conda env
 conda create -n gps python=3.8.0 -y
 conda activate gps
 # Torch 2.0.1 with CUDA 11.8
@@ -56,10 +58,6 @@ pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https
 pip install -r requirements.txt
 pip install torch-sparse==0.6.17 -f https://pytorch-geometric.com/whl/torch-2.0.1+cu118.html
 pip install torch-scatter==2.1.1 -f https://pytorch-geometric.com/whl/torch-2.0.1+cu118.html
-# Clone our repo
-git clone https://github.com/xxx08796/GPS_KDD.git
-cd GPS_KDD
-mkdir dataset
 ```
 
 
