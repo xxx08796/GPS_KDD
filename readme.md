@@ -59,7 +59,7 @@ pip install torch-scatter==2.1.1 -f https://pytorch-geometric.com/whl/torch-2.0.
 # Clone our repo
 git clone https://github.com/xxx08796/GPS_KDD.git
 cd GPS_KDD
-
+mkdir dataset
 ```
 
 
